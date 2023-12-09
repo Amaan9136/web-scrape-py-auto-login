@@ -1,0 +1,66 @@
+// all the below is input_data references
+// paste the credentials from file: 0 user db credentials.txt then check for Successful Logins using common codes and paste here!
+// get required login details from refer-balance-attribute.txt file
+
+1.
+login_url = "https://www.bfsrz-2023-fcm.com/index/user/login.html"
+profile_url = "https://www.bfsrz-2023-fcm.com/index/my/index.html"  # Profile URL
+
+Successful Logins:
+Mobile          Password
+7353346164      7353346164s
+9708569531      sonu3295
+9756468254      975646aa
+7020392645      swati1900
+7562879235      i88888
+7398003572      aman1234
+
+Balances:
+7562879235      90.00
+9708569531      0.00
+9756468254      11.90
+7398003572      120.00
+
+2.
+login_url = "https://www.indworldcup2023.com/index/user/login.html"
+profile_url = "https://www.indworldcup2023.com/index/my/index.html"  # Profile URL
+
+Successful Logins:
+Mobile          Password
+7353346164      7353346164s
+9756468254      975646aa
+
+All Balances:
+Mobile          Balance
+7353346164      20.00
+9756468254      20.00
+
+3.
+login_url = "https://www.vng-91rapidork.buzz/"  #Login page url
+profile_url = "https://www.vng-91rapidork.buzz/my"  # Profile page URL
+'''
+Successful Logins:
+Mobile          Password
+7353346164      7353346164s
+9756468254      975646123321
+7562879235      i88888
+'''
+
+4.
+login_url = "https://www.xykj22-bj99.com/index/user/login.html"
+profile_url = "https://www.xykj22-bj99.com/index/my/index.html"  # Profile URL
+app_login_mobile= "tel"
+app_login_password= "pwd"
+app_login_button= "login"
+balance_attribute= 'small[data-v-d5f15326]'
+'''
+<span data-v-d5f15326="">Balance</span>
+<em data-v-d5f15326="">
+<small data-v-d5f15326="">50.00</small>
+</em>
+'''
+'''
+All Balances:
+Mobile          Balance
+7562879235      i88888  134.30
+'''

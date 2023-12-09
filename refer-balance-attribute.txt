@@ -1,0 +1,68 @@
+// paste this in any of file in the common-codes folder
+// the commented below having html is to show the type of html for balance_attribute
+// when modifying the balance_attribute also check By.CSS_SELECTOR/NAME/DIV/SPAN :
+                balance_element = driver.find_element(By.CSS_SELECTOR, balance_attribute)
+
+
+
+1. balance having meta2:
+
+login_url = "https://www.vng-91rapidork.buzz/"  #Login page url
+profile_url = "https://www.vng-91rapidork.buzz/my"  # Profile page URL
+app_login_mobile= "tel"
+app_login_password= "pwd"
+app_login_button= "login"
+balance_attribute = 'div.meta2 span:contains("Balance") + span'
+
+'''
+<div class="meta2">
+<div>
+<span>20.00</span>
+<span>Balance</span>
+</div>
+'''
+
+
+2. small attribute with data index:
+
+# URL of the login page
+login_url = "https://www.indworldcup2023.com/index/user/login.html"  #Login page url
+profile_url = "https://www.indworldcup2023.com/index/my/index.html"  # Profile URL
+app_login_mobile= "tel"
+app_login_password= "pwd"
+app_login_button= "login"
+balance_attribute= 'small[data-v-d5f15326]'
+
+'''
+<span data-v-d5f15326="">Balance</span>
+<em data-v-d5f15326="">
+<small data-v-d5f15326="">50.00</small>
+</em>
+'''
+
+3. if the order is as show in below comment:
+
+login_url = "https://www.longapp-rd.com/index/user/login.html"  # Login page URL
+profile_url = "https://www.longapp-rd.com/index/my/index.html"  # Profile page URL
+app_login_mobile = "tel"
+app_login_password = "pwd"
+app_login_button = "login"
+balance_attribute = "//div[contains(text(), 'Balance')]"
+income_attribute = "//div[contains(text(), 'Balance')]/following-sibling::div[2]"
+
+'''
+<div>
+<div style="">Balance<br>0.00</div>
+<div style=""> Recharge<br>50.00</div>
+<div style=""> Income<br>0</div>
+</div>
+'''
+#customise depending on html [this is for xpath]:
+  # (you should inspect the page and identify the correct element)
+  balance_element = driver.find_element(By.XPATH, balance_attribute)
+  balance_text = balance_element.text
+  balance = balance_text.split()[-1]
+  income_element = driver.find_element(By.XPATH, income_attribute)
+  income_text = income_element.text
+  income = income_text.split()[-1]
+  balance_list.append((mobile,password,balance,income))

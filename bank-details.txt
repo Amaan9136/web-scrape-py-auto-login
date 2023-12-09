@@ -1,0 +1,34 @@
+//Set this as common password: app[usernmuber] example: app7353346164
+
+22160110045053 : ac number
+UCBA0002216 : ifsc
+Name : Asma Apsar C
+Bank name: UCO 👆
+
+
+09230100014743 : ac number
+BARB0CHICKM : ifsc
+Name : Amaan Mohammad Khalander
+Bank name: Bank Of Baroda 👆
+
+
+64149722884 : ac number
+SBIN0008732: ifsc
+Name : Amaan Mohammed Khalander 
+Bank name: State Bank of India 👆
+
+01772200065645 : ac number
+CNRB0010900: ifsc
+Name : C Asma Apsar
+Bank name: Canara👆
+
+
+09230100014744 : ac number
+BARB0CHICKM: ifsc
+Name : Amreen Fathima 
+Bank name: Bank Of Baroda👆
+
+09230100014745 : ac number
+BARB0CHICKM: ifsc
+Name : Ayesha Afreen
+Bank name: Bank Of Baroda👆
